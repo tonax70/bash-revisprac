@@ -1,0 +1,11 @@
+program echo;
+    implicit none;
+    print *, "Use echo to display a simple message to the terminal (the escape character will be disabled by default)";
+    call execute_command_line('sh -c ''echo "Hello, "; echo "World"''');
+    print *, "Flags: ";
+    print *, "-n : no trailing new line";
+    call execute_command_line('sh -c ''echo -n "Hello,"; echo " World!"''');
+    print *, "-e (lowercase) : enable backslash escape";
+    call execute_command_line('sh -c ''echo -e "Hello World,\nTonax70!"''');
+    print *, "-E (uppercase): disable escape character";
+end program echo;
