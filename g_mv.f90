@@ -25,5 +25,5 @@ program mv;
     print *, "The files in the ./dest_img are:"
     call execute_command_line('sh -c ''cd ./dest_img; ls''');
 
-
+    print *, "Notes: with mv we can also rename file just type the new file name within the same dir";
 end program mv;
