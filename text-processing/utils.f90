@@ -3,7 +3,7 @@ module utils
     private
 
     ! Public procedures
-    public :: readFile, confirm, cc, cx
+    public :: readFile, confirm, cc, cx, lb
 
 contains
 
@@ -32,5 +32,9 @@ contains
         call cc(command);
         call execute_command_line(command);
     end subroutine cx
+
+    subroutine lb()
+        print *;
+    end subroutine lb
 
 end module utils
