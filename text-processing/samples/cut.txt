@@ -1,0 +1,11 @@
+Using the cut Command
+The cut command is used to remove sections from each line of files.
+
+It's a useful tool for extracting specific fields of data from a file or output stream.
+
+Options
+The cut command has options to change how it works:
+
+-d - Choose what separates the fields
+-f - Select specific fields to display
+--complement - Show all fields except the selected ones
