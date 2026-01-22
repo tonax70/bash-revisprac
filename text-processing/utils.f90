@@ -3,7 +3,7 @@ module utils
     private
 
     ! Public procedures
-    public :: readFile, confirm, cc
+    public :: readFile, confirm, cc, cx
 
 contains
 
@@ -25,5 +25,12 @@ contains
         print *, "Press Enter to continue...";
         read(*,*);
     end subroutine cc
+
+    subroutine cx(command)
+        implicit none;
+        character(len=*), intent(in) :: command;
+        call cc(command);
+        call execute_command_line(command);
+    end subroutine cx
 
 end module utils
