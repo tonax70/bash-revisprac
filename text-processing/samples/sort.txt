@@ -1,0 +1,14 @@
+Using the sort Command
+The sort command is used to sort lines of text files.
+
+It's a handy tool for organizing data in files.
+
+Options
+The sort command has options to change how it works:
+
+-r - Sort in reverse order
+-n - Sort numbers correctly
+-k - Sort by a specific column
+-u - Remove duplicate lines
+-t - Specify a delimiter for fields
+
