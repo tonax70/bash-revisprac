@@ -1,0 +1,10 @@
+The awk command is used for pattern scanning and processing language.
+
+It's useful for handling text files and used for data extraction and reporting.
+
+Options
+The awk command has options to change how it works:
+
+-F - Set what separates the data fields
+-v - Set a variable to be used in the script
+-f - Use a file as the source of the awk program

@@ -18,6 +18,7 @@ program grep
 
     contains
     subroutine grp(searchTerms,name, path, isDir) 
+        implicit none;
         character (len=*), intent(in) :: name, path, searchTerms;
         character (len=1) :: option;
         logical :: isDir;
