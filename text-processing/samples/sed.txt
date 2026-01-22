@@ -1,0 +1,14 @@
+Using the sed Command
+The sed command is a stream editor used to perform basic text transformations on an input stream (a file or input from a pipeline).
+
+It's a powerful tool for making quick edits to files or streams of data.
+
+Options
+The sed command has options to change how it works:
+
+-i - Edit files directly without needing to save separately
+-e - Add the script to the commands to be executed
+-n - Don't automatically print lines
+-r - Use extended regular expressions
+-f - Add script from a file
+-l - Specify line length for l command
