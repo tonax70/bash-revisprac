@@ -3,7 +3,7 @@ module utils
     private
 
     ! Public procedures
-    public :: readFile, confirm
+    public :: readFile, confirm, cc
 
 contains
 
@@ -18,5 +18,12 @@ contains
         print *, "Press Enter to continue..."
         read(*,*)
     end subroutine confirm
+
+    subroutine cc(message) ! cc stands for Confirm Command
+        character(len=*), intent(in) :: message;
+        print *, "You are going to run the command: "//trim(message);
+        print *, "Press Enter to continue...";
+        read(*,*);
+    end subroutine cc
 
 end module utils
