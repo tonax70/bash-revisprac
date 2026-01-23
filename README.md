@@ -16,4 +16,7 @@
 
  - gfortran [filename].f90 -o [filename] && ./[filename]
 
+> how to compile and run a fortran file with a fortran module
+
+- gfortran [moduleName].f90 [filename].f90 -o [filename] && ./[filename]
  ```
