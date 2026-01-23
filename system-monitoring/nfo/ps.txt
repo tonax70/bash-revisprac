@@ -1,0 +1,21 @@
+Using the ps Command
+The ps command is used to report a snapshot of current processes.
+
+It's a useful tool for monitoring and managing processes on your system.
+
+Understanding the Output
+The ps command output consists of several columns, each representing different aspects of the system's processes:
+
+PID: Process ID, a unique identifier for each process.
+TTY: Terminal type associated with the process.
+TIME: Total CPU time used by the process.
+CMD: The command that started the process.
+
+Options
+The ps command has options to change how it works:
+
+-e - Show all processes
+-f - Show detailed information
+-u - Show processes for a specific user
+-a - Show all processes with a terminal
+-x - Show processes without a terminal
