@@ -1,0 +1,13 @@
+Using the curl Command
+The curl command is used to transfer data from or to a server using various protocols like HTTP, HTTPS, FTP, and more.
+
+It's a versatile tool for downloading files, testing APIs, and more.
+
+Options
+The curl command has options to change how it works:
+
+-O - Save the file with the same name as the remote file
+-L - Follow redirects
+-I - Fetch the HTTP headers only
+-d - Send data with POST request
+-u - Specify user and password for server authentication
