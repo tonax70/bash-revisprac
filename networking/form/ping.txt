@@ -1,0 +1,12 @@
+Using the ping Command
+The ping command is used to send ICMP ECHO_REQUEST to network hosts.
+
+It's a useful tool for checking network connectivity and diagnosing network issues.
+
+The ping command has options to change how it works:
+
+-c - Send a specific number of ping requests
+-i - Wait a specific number of seconds between sending each packet
+-t - Set the IP Time to Live (TTL)
+-q - Quiet output, only show summary
+-s - Specify the number of data bytes to be sent
